@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - image: redis
-    name: redisdb
+    name: redisdb-1
     volumeMounts:
     - name: redis-data
       mountPath: /data
